@@ -1,9 +1,18 @@
 package main
 
 import (
-	"fmt"
+	"log"
+	"net/http"
 )
 
+func setupRoutes() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		log.Println(w, "Simple Server")
+	})
+}
+
 func main() {
-	fmt.Println("ok")
+	setupRoutes()
+
+	http.ListenAndServe(":8080", nil)
 }
