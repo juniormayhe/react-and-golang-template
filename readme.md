@@ -1,5 +1,18 @@
-# wm-site
+# React and Golang template
 
-## Tutorial
+## on backend
+```
+go run main.go
+```
 
-https://tutorialedge.net/projects/chat-system-in-go-and-react/part-1-initial-setup/
+## on frontend
+```
+npm start
+```
+## deploy
+
+```
+npm run build
+```
+
+then move build folder to ui/build
