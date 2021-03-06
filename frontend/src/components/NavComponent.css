@@ -61,7 +61,6 @@
     flex-wrap: wrap;
     justify-content: center; /*children horizontally centered*/
     align-items: right; /*children vertically centered*/
-    /* width: 100%; */
   }
   nav a {
     display: inline-block;
